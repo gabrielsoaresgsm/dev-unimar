@@ -1,10 +1,10 @@
 'use client';
-import { Box, Stack, styled } from '@mui/material';
+import { styled } from '@mui/material';
 import { Project } from 'app/types';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { Text, TextAnimate } from 'components/Typography';
+import { Text } from 'components/Typography';
 
 import { SlideCardProducts } from './slideCardProjects';
 

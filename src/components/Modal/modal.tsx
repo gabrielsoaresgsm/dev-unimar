@@ -19,7 +19,7 @@ const style = {
   p: 4,
 };
 
-export default function ReusableModal({ modalTitle, modalContent }) {
+export default function ReusableModal({ modalTitle, modalContent, date, cod }) {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -35,10 +35,16 @@ export default function ReusableModal({ modalTitle, modalContent }) {
       >
         <Box sx={style}>
           <Text style={{ color: 'black' }}>
+            {cod}
+          </Text>
+          <Text style={{ color: 'black' }}>
             {modalTitle}
           </Text>
           <Text style={{ color: 'black' }}>
             {modalContent}
+          </Text>
+          <Text style={{ color: 'black' }}>
+            {date}
           </Text>
         </Box>
       </Modal>

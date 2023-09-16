@@ -103,7 +103,6 @@ export const SlideCardProducts: React.FC<SlideCardProjectsProps> = ({
               <Item>
                 {project.techs}
               </Item>
-
             </Stack>
           </StackRelative>
         </Stack>

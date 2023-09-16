@@ -91,8 +91,10 @@ export const Card = ({ ...props }) => {
             <Button onClick={handleSendSms} width={isMobile ? 150 : 180}>Enviar SMS</Button>
             <Button onClick={handleWhats} width={isMobile ? 150 : 180}>Enviar Whats app</Button>
             <ReusableModal
-              modalTitle={`${info.Cart.product_name} - cod: ${info.Cart.product_id}`}
-              modalContent={"Produto x"}
+              cod={`Código do produto: ${info.Cart.product_id}`}
+              modalTitle={`Produto: ${info.Cart.product_name}`}
+              modalContent={`Preço: R$ ${info.Cart.price} `}
+              date={`Adicionado no carrinho em: ${info.Cart.date}`}
             />
           </Stack>
         </Grid>
