@@ -9,7 +9,7 @@
 >Gabriel Mielo
 
 ## Sobre o projeto
- - Criamos um dashboard de controle administrativo, onde o usuário(administrador) pode verificar quais carrinhos estão abandonados(não chegaram a finalizar a compra) e os produtos contidos nesse carrinho. Dentro do painel é possível enviar uma notificação push, tanto com E-mail quanto SMS.
+ - Criamos um dashboard de controle administrativo, onde o usuário(administrador) pode verificar quais carrinhos estão abandonados(não chegaram a finalizar a compra) e os produtos contidos nesse carrinho. Dentro do painel é possível enviar uma notificação push, tanto com WhatsApp quanto SMS.
 
 ## Tecnologias utilizadas
 - **Front-end:** React | Next.JS
