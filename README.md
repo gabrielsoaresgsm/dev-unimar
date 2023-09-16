@@ -26,3 +26,10 @@
 
 ## Mapa mental
 ![mapa-mental](https://i.imgur.com/TFS2xMQ.png)
+
+
+
+# Rodar projeto
+
+- Na raiz do projeto, rodar o comando **npm i**
+- Logo após rodar o comando, rode o comando **npm run dev**
